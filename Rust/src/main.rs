@@ -3,7 +3,7 @@ mod array;
 fn main() {
     let mut arr: [i32; 5] = [1, 2, 3, 4, 5];
     // let slice: &[i32] = &[0; 5];
-    let mut nums: Vec<i32> = vec![1, 2, 3, 4, 5];
+    let nums: Vec<i32> = vec![1, 2, 3, 4, 5];
 
     //test case
     //random access
