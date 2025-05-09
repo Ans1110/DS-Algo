@@ -52,3 +52,5 @@ console.log(find(arr, 3));
 
 //extend
 console.log(extend(arr, 2));
+
+console.log(arr);

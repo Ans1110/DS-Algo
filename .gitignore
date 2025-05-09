@@ -17,3 +17,4 @@ __pycache__/
 .Spotlight-V100
 .Trashes
 Thumbs.db
+Rust/rust_project/target/
