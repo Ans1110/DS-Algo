@@ -1,28 +1,23 @@
+use std::cell::RefCell;
+use std::rc::Rc;
+
+use linked_list::ListNode;
+use linked_list::find;
+
 mod array;
+mod linked_list;
 
 fn main() {
-    let mut arr: [i32; 5] = [1, 2, 3, 4, 5];
-    // let slice: &[i32] = &[0; 5];
-    let nums: Vec<i32> = vec![1, 2, 3, 4, 5];
+    let n0: Rc<RefCell<ListNode>> = Rc::new(RefCell::new(ListNode { val: 1, next: None }));
+    let n1: Rc<RefCell<ListNode>> = Rc::new(RefCell::new(ListNode { val: 2, next: None }));
+    let n2: Rc<RefCell<ListNode>> = Rc::new(RefCell::new(ListNode { val: 3, next: None }));
+    let n3: Rc<RefCell<ListNode>> = Rc::new(RefCell::new(ListNode { val: 4, next: None }));
+    let n4: Rc<RefCell<ListNode>> = Rc::new(RefCell::new(ListNode { val: 5, next: None }));
 
-    //test case
-    //random access
-    let random_num = array::random_access(&nums);
-    println!("Random number: {}", random_num);
+    n0.borrow_mut().next = Some(n1.clone());
+    n1.borrow_mut().next = Some(n2.clone());
+    n2.borrow_mut().next = Some(n3.clone());
+    n3.borrow_mut().next = Some(n4.clone());
 
-    //insert
-    array::insert(&mut arr, 1, 3);
-    println!("Array after insert: {:?}", arr);
-
-    //delete
-    array::remove(&mut arr, 3);
-    println!("Array after delete: {:?}", arr);
-    
-    //find
-    let index = array::find(&arr, 3);
-    println!("Index of 3: {:?}", index);
-    
-    //extend
-    let extended_arr = array::extend(&arr, 2);
-    println!("Extended array: {:?}", extended_arr);
+    println!("{}", find(n0, 3));
 }
