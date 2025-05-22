@@ -114,6 +114,42 @@ impl<T: PartialEq> LinkedList<T> {
         self.tail = None;
     }
 
+    pub fn delete_head(&mut self) {
+        if let Some(head_node) = self.head.take() {
+            self.head = head_node.borrow_mut().next.take();
+
+            if self.head.is_none() {
+                self.tail = None;
+            }
+        }
+    }
+
+    pub fn delete_tail(&mut self) {
+        match self.head.clone() {
+            None => return,
+            Some(head_node) => {
+                if head_node.borrow().next.is_none() {
+                    self.head = None;
+                    self.tail = None;
+                    return;
+                }
+
+                let mut current = self.head.clone();
+                while let Some(ref node) = current {
+                    let next = node.borrow().next.clone();
+                    if let Some(ref next_node) = next {
+                        if next_node.borrow().next.is_none() {
+                            node.borrow_mut().next = None;
+                            self.tail = Some(node.clone());
+                            break;
+                        }
+                    }
+                    current = next;
+                }
+            }
+        }
+    }
+
     pub fn find(&self, target: T) -> Link<T>
     where
         T: Clone,
