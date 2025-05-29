@@ -13,4 +13,7 @@ fn main() {
     // println!("{:?}", linked_list);
     linked_list.reverse();
     println!("{:?}", linked_list.to_string(None::<fn(&i32) -> String>));
+
+    let arr: Box<[i32]> = Box::new([1, 2, 3]);
+    println!("{:?}", array::random_access(&arr));
 }

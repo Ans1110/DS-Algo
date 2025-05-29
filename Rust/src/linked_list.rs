@@ -1,5 +1,4 @@
 use std::cell::RefCell;
-use std::io::Cursor;
 use std::rc::Rc;
 
 type Link<T> = Option<Rc<RefCell<ListNode<T>>>>;
