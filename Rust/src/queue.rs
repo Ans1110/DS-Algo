@@ -110,10 +110,11 @@ pub struct ArrayQueue<T> {
     capacity: i32,
 }
 
-impl<T: Copy + Default> ArrayQueue<T> {
+impl<T: Copy> ArrayQueue<T> {
     pub fn new(capacity: i32) -> Self {
         Self {
-            queue: vec![T::default(); capacity as usize],
+            // queue: vec![T::default(); capacity as usize],
+            queue: Vec::with_capacity(capacity as usize),
             front: 0,
             size: 0,
             capacity,
@@ -137,7 +138,11 @@ impl<T: Copy + Default> ArrayQueue<T> {
         }
 
         let rear = (self.front + self.size) % self.capacity;
-        self.queue[rear as usize] = value;
+        if self.queue.len() < self.capacity as usize {
+            self.queue.push(value);
+        } else {
+            self.queue[rear as usize] = value;
+        }
         self.size += 1;
     }
 
