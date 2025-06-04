@@ -1,5 +1,6 @@
 mod array;
 mod linked_list;
+mod stack;
 
 fn main() {
     let mut linked_list = linked_list::LinkedList::new();
