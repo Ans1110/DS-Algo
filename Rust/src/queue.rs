@@ -188,6 +188,6 @@ mod array_queue_tests {
         println!("{}", queue.dequeue().unwrap());
         println!("{}", queue.dequeue().unwrap());
         // println!("{:?}", queue.size());
-        println!("{:?}", queue.to_array())
+        println!("{:?}", queue.to_array());
     }
 }

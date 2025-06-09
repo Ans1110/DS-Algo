@@ -41,3 +41,11 @@ typescript &amp; python &amp; rust
 ### [Python](./Python/queue.py)
 
 ### [Rust](./Rust/src/queue.rs)
+
+## HashMap
+
+### [TypeScript](./TS/src/hashmap.ts)
+
+### [Python](./Python/hashmap.py)
+
+### [Rust](./Rust/src/hashmap.rs)
