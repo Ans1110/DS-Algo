@@ -5,7 +5,7 @@ mod queue;
 mod hashmap;
 
 fn main() {
-    
+
 }
 
 

@@ -195,7 +195,7 @@ class HashMapOpenAddressing {
   private extend(): void {
     const bucketsTmp = this.buckets;
     this.capacity *= this.extendRatio;
-    this.buckets = Array(this.capacity).fill(null);
+    this.buckets = new Array(this.capacity).fill(null);
     this.size = 0;
 
     for (const pair of bucketsTmp) {

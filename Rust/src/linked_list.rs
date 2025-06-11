@@ -16,12 +16,12 @@ impl<T> ListNode<T> {
 }
 
 #[derive(Debug)]
-pub struct LinkedList<T> {
+pub struct LInkedList.LinkedList<T> {
     head: Link<T>,
     tail: Link<T>,
 }
 
-impl<T: PartialEq> LinkedList<T> {
+impl<T: PartialEq> LInkedList.LinkedList<T> {
     pub fn new() -> Self {
         Self {
             head: None,

@@ -10,7 +10,7 @@ typescript &amp; python &amp; rust
 
 ### [Rust](./Rust/src/array.rs)
 
-## LinkedList
+## LInkedList.LinkedList
 
 ### [TypeScript](./TS/src/linkedList.ts)
 
