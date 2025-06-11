@@ -1,12 +1,14 @@
 # DS&Algo
 
-typescript &amp; python &amp; rust
+typescript &amp; python &amp; java &amp; rust
 
 ## SeqList
 
 ### [TypeScript](./TS/src/array.ts)
 
 ### [Python](./Python/array.py)
+
+### [Java](./Java/src/SeqList/Array.java)
 
 ### [Rust](./Rust/src/array.rs)
 
@@ -15,6 +17,8 @@ typescript &amp; python &amp; rust
 ### [TypeScript](./TS/src/linkedList.ts)
 
 ### [Python](./Python/linked_list.py)
+
+### [Java](./Java/src/LInkedList/LinkedList.java)
 
 ### [Rust](./Rust/src/linked_list.rs)
 
