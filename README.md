@@ -28,7 +28,7 @@ typescript &amp; python &amp; java &amp; rust
 
 ### [Python](./Python/doubly_linked_list.py)
 
-### [Rust](./Rust/src/doubly_linked_list.rs)
+### [Java](./Java/src/DoublyLinkedList/DoubleLinkedList.java)
 
 ## Stack
 

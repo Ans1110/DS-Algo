@@ -2,8 +2,6 @@ package LInkedList;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Function;
-import java.util.stream.Collectors;
 
 public class LinkedList<T> {
     public ListNode<T> head = null;

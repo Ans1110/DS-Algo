@@ -1,22 +1,29 @@
+import DoublyLinkedList.DoubleLinkedList;
 import LInkedList.LinkedList;
 import SeqList.Array;
 
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Array array = new Array();
+        DoubleLinkedList<Integer> linkedList = new DoubleLinkedList<>();
 
-        LinkedList<Integer> list = new LinkedList<>();
-        list.append(1);
-        list.append(2);
-        list.append(3);
-        list.append(4);
-        list.append(5);
+        linkedList.append(1);
+        linkedList.append(2);
+        linkedList.append(3);
+        linkedList.append(4);
+        linkedList.append(5);
+        System.out.println(linkedList.toString());
 
-        System.out.println(list.toString());
-        list.delete(1);
-        System.out.println(list.toString());
-        System.out.println(list.toArray());
+        linkedList.deleteTail();
+        linkedList.deleteHead();
+        System.out.println(linkedList.toString());
+
+        linkedList.insert(6, 2);
+        System.out.println(linkedList.toString());
+
+        linkedList.deleteAt(2);
+        System.out.println(linkedList.toString());
+
+        System.out.println(linkedList.findIndex(3));
     }
 }
