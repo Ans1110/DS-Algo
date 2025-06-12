@@ -45,7 +45,7 @@ class LinkedListQueue<T> {
 
   toArray(): T[] {
     let currentNode = this.front;
-    const arr: T[] = new SeqList<T>(this.queueSize);
+    const arr: T[] = new Array<T>(this.queueSize);
     for (let i = 0; i < this.queueSize; i++) {
       arr[i] = currentNode!.val;
       currentNode = currentNode!.next;
@@ -93,7 +93,7 @@ class ArrayQueue<T> {
   }
 
   toArray(): T[] {
-    const arr = new SeqList<T>(this.queueSize);
+    const arr = new Array<T>(this.queueSize);
     for (let i = 0, j = this.front; i < this.queueSize; i++, j++) {
       arr[i] = this.queue[j % this.capacity];
     }

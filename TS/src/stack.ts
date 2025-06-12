@@ -47,7 +47,7 @@ class LinkedListStack<T> {
   }
 
   toArray(): T[] {
-    const arr: T[] = new SeqList<T>(this.stkSize);
+    const arr: T[] = new Array<T>(this.stkSize);
     let currentNode = this.stackPeek;
     for (let i = this.stkSize - 1; i >= 0; i--) {
       arr[i] = currentNode!.value;

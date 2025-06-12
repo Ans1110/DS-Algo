@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e14eb49-82a5-46da-b6dd-a86e7190aed1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java/src/DoublyLinkedList/DoubleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/DoublyLinkedList/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Queue/ArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Queue/LinkedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Queue/QueueNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Stack/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Stack/LinkedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Stack/StackNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/LInkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/LInkedList/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TS/src/queue.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TS/src/queue.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TS/src/stack.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TS/src/stack.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +56,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/xiaodezheng/Documents/DS&amp;Algo&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/xiaodezheng/Documents/DS&Algo",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Java" />

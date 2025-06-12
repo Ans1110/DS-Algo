@@ -36,6 +36,8 @@ typescript &amp; python &amp; java &amp; rust
 
 ### [Python](./Python/stack.py)
 
+### [Java](./Java/src/Stack/)
+
 ### [Rust](./Rust/src/stack.rs)
 
 ## Queue
@@ -43,6 +45,8 @@ typescript &amp; python &amp; java &amp; rust
 ### [TypeScript](./TS/src/queue.ts)
 
 ### [Python](./Python/queue.py)
+
+### [Java](./Java/src/Queue/)
 
 ### [Rust](./Rust/src/queue.rs)
 
