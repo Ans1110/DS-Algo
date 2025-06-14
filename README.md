@@ -54,6 +54,8 @@ typescript &amp; python &amp; java &amp; rust
 
 ### [TypeScript](./TS/src/hashmap.ts)
 
+### [Java](./Java/src/HashMap/)
+
 ### [Python](./Python/hashmap.py)
 
 ### [Rust](./Rust/src/hashmap.rs)
