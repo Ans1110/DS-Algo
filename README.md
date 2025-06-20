@@ -68,4 +68,4 @@ typescript &amp; python &amp; java &amp; rust
 
 ## Heap
 
-### [Java](./Java/src/Tree/)
+### [Java](./Java/src/Heap/)
