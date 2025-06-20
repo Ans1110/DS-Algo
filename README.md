@@ -6,9 +6,9 @@ typescript &amp; python &amp; java &amp; rust
 
 ### [TypeScript](./TS/src/array.ts)
 
-### [Python](./Python/array.py)
-
 ### [Java](./Java/src/SeqList/Array.java)
+
+### [Python](./Python/array.py)
 
 ### [Rust](./Rust/src/array.rs)
 
@@ -16,9 +16,9 @@ typescript &amp; python &amp; java &amp; rust
 
 ### [TypeScript](./TS/src/linkedList.ts)
 
-### [Python](./Python/linked_list.py)
-
 ### [Java](./Java/src/LInkedList/LinkedList.java)
+
+### [Python](./Python/linked_list.py)
 
 ### [Rust](./Rust/src/linked_list.rs)
 
@@ -26,17 +26,17 @@ typescript &amp; python &amp; java &amp; rust
 
 ### [TypeScript](./TS/src/doublyLinkedList.ts)
 
-### [Python](./Python/doubly_linked_list.py)
-
 ### [Java](./Java/src/DoublyLinkedList/DoubleLinkedList.java)
+
+### [Python](./Python/doubly_linked_list.py)
 
 ## Stack
 
 ### [TypeScript](./TS/src/stack.ts)
 
-### [Python](./Python/stack.py)
-
 ### [Java](./Java/src/Stack/)
+
+### [Python](./Python/stack.py)
 
 ### [Rust](./Rust/src/stack.rs)
 
@@ -44,9 +44,9 @@ typescript &amp; python &amp; java &amp; rust
 
 ### [TypeScript](./TS/src/queue.ts)
 
-### [Python](./Python/queue.py)
-
 ### [Java](./Java/src/Queue/)
+
+### [Python](./Python/queue.py)
 
 ### [Rust](./Rust/src/queue.rs)
 
@@ -59,3 +59,13 @@ typescript &amp; python &amp; java &amp; rust
 ### [Python](./Python/hashmap.py)
 
 ### [Rust](./Rust/src/hashmap.rs)
+
+## Tree
+
+### [TypeScript](./TS/src/tree.ts)
+
+### [Java](./Java/src/Tree/)
+
+## Heap
+
+### [Java](./Java/src/Tree/)
