@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e14eb49-82a5-46da-b6dd-a86e7190aed1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java/src/Heap/MaxHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Tree/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Tree/AVLTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Tree/ArrayBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Tree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Tree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Tree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Graph/GraphAdjList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Graph/GraphAdjMat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Graph/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Tree/TrieMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Tree/TrieNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +126,8 @@
       <workItem from="1749754914620" duration="1373000" />
       <workItem from="1749907320612" duration="10539000" />
       <workItem from="1750236147942" duration="8008000" />
-      <workItem from="1750409672284" duration="5207000" />
+      <workItem from="1750409672284" duration="10935000" />
+      <workItem from="1750583886265" duration="14692000" />
     </task>
     <servers />
   </component>
