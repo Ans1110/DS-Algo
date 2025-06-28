@@ -69,3 +69,15 @@ typescript &amp; python &amp; java &amp; rust
 ## Heap
 
 ### [Java](./Java/src/Heap/)
+
+## Graph
+
+### [Java](./Java/src/Graph/)
+
+## Sort
+
+### [Java](./Java/src/Sort/)
+
+## Search
+
+### [Java](./Java/src/Search/)
