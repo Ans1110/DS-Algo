@@ -9,6 +9,7 @@ import LInkedList.LinkedList;
 import Queue.ArrayQueue;
 import Queue.LinkedQueue;
 import SeqList.Array;
+import Sort.Sort;
 import Stack.LinkedStack;
 
 import java.util.ArrayList;
@@ -18,9 +19,5 @@ import java.util.Queue;
 
 
 public class Main {
-    public static void main(String[] args) {
-
-
-    }
 
 }

@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e14eb49-82a5-46da-b6dd-a86e7190aed1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java/src/Graph/GraphAdjList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Graph/GraphAdjMat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Graph/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Tree/TrieMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Tree/TrieNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Search/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Sort/Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Main.java" afterDir="false" />
     </list>
@@ -60,38 +57,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/xiaodezheng/Documents/DS&amp;Algo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMThirdPartyAiProvidersConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main.executor": "Run",
+    "Application.Sort.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/xiaodezheng/Documents/DS&Algo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "ml.llm.LLMThirdPartyAiProvidersConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Sort">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="DS&amp;Algo" />
@@ -99,8 +97,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.Sort" />
+      <module name="DS&amp;Algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sort" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -127,7 +139,7 @@
       <workItem from="1749907320612" duration="10539000" />
       <workItem from="1750236147942" duration="8008000" />
       <workItem from="1750409672284" duration="10935000" />
-      <workItem from="1750583886265" duration="14692000" />
+      <workItem from="1750583886265" duration="28921000" />
     </task>
     <servers />
   </component>
