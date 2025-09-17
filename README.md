@@ -1,6 +1,6 @@
 # DS&Algo
 
-typescript &amp; python &amp; java &amp; rust
+typescript &amp; go &amp; java &amp; C
 
 ## SeqList
 
@@ -10,7 +10,7 @@ typescript &amp; python &amp; java &amp; rust
 
 ### [Python](./Python/array.py)
 
-### [Rust](./Rust/src/array.rs)
+### [Go](./go/SeqList/list.go)
 
 ## LinkedList
 
@@ -18,9 +18,7 @@ typescript &amp; python &amp; java &amp; rust
 
 ### [Java](./Java/src/LInkedList/LinkedList.java)
 
-### [Python](./Python/linked_list.py)
-
-### [Rust](./Rust/src/linked_list.rs)
+### [Go](./go/LinkedList/linkedlist.go)
 
 ## DoubleLinkedList
 
@@ -28,7 +26,6 @@ typescript &amp; python &amp; java &amp; rust
 
 ### [Java](./Java/src/DoublyLinkedList/DoubleLinkedList.java)
 
-### [Python](./Python/doubly_linked_list.py)
 
 ## Stack
 
@@ -36,9 +33,6 @@ typescript &amp; python &amp; java &amp; rust
 
 ### [Java](./Java/src/Stack/)
 
-### [Python](./Python/stack.py)
-
-### [Rust](./Rust/src/stack.rs)
 
 ## Queue
 
@@ -46,9 +40,7 @@ typescript &amp; python &amp; java &amp; rust
 
 ### [Java](./Java/src/Queue/)
 
-### [Python](./Python/queue.py)
 
-### [Rust](./Rust/src/queue.rs)
 
 ## HashMap
 
@@ -56,9 +48,7 @@ typescript &amp; python &amp; java &amp; rust
 
 ### [Java](./Java/src/HashMap/)
 
-### [Python](./Python/hashmap.py)
 
-### [Rust](./Rust/src/hashmap.rs)
 
 ## Tree
 

@@ -5,10 +5,12 @@ target/
 node_modules/
 dist/
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
+# Java
+.idea/
+
+# Go
+.mod
+*_test.go
 
 # OS-specific
 .DS_Store
